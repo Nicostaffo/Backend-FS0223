@@ -1,0 +1,15 @@
+package lezione_2.esercizio1;
+
+public class Rettangolo {
+  int altezza;
+  int base;
+  
+  public Rettangolo (int altezza, int base) {
+	  this.altezza = altezza;
+	  this.base = base;
+  }
+  public static int calcoloArea() {
+	  int area = base * altezza;
+	  return area;
+  }
+}

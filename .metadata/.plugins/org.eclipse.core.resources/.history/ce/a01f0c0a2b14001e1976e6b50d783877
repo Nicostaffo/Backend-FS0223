@@ -1,0 +1,48 @@
+package it.epicode.be;
+
+public class Helloworld {
+
+	
+	
+public static void main (String[] args)
+		{
+		// Stampa a console  la frase
+		System.out.println("This is my first Epicode Java Project!");
+		moltiplica(6,2);
+		concatena("ciao per",3);
+		 String[] array = {"Elemento 1", "Elemento 2", "Elemento 3", "Elemento 4", "Elemento 5"};
+	        String nuovaStringa = "Nuova stringa";
+	        String[] nuovoArray = inserisciArray(array, nuovaStringa);
+	        
+	        for (String elemento : nuovoArray) {
+	            System.out.println(elemento);
+	        }
+		}
+public static void moltiplica(int a, int b) {
+	int molt = a*b;
+	System.out.println(molt);
+}
+public static void concatena(String name,int x) {
+	String conc = name +' '+ x;
+	System.out.println(conc);
+}
+public static String[] inserisciArray(String[] array, String nuovaStringa) {
+    String[] nuovoArray = new String[6];
+
+    for (int i = 0; i < 4; i++) {
+        nuovoArray[i] = array[i];
+    }
+
+    nuovoArray[2] = nuovaStringa;
+ 
+    for (int i = 3; i < 5; i++) {
+        nuovoArray[i+2] = array[i];
+    }
+    
+    return nuovoArray;
+}
+}
+
+
+
+

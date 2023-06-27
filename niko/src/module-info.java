@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author staff
+ *
+ */
+module niko {
+}
