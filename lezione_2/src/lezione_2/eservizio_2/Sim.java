@@ -4,7 +4,7 @@ public class Sim {
 public int numero ;
 public double credito = 0;
 public int chiamate = 0;
-
+Chiamata[]
 
 public Sim(int numero) {
 	this.numero = numero;
@@ -13,7 +13,6 @@ public void mostraSim() {
 	System.out.println("numero cellulare " + this.numero);
 	System.out.println("credito residuo " + this.credito);
 	System.out.println("totale chiamate effettuate " + this.chiamate);
-	
 }
 }
 

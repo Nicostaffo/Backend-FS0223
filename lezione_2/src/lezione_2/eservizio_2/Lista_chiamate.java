@@ -1,7 +1,7 @@
 package lezione_2.eservizio_2;
 
 public class Lista_chiamate {
-int tempoChiamata;
+double tempoChiamata;
 Sim utente1;
 int utente2;
 
