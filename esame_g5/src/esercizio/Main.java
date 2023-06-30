@@ -81,13 +81,37 @@ static List<ElementoMultimediale> elementiMultimediali = new ArrayList<>();
 	    default : 
 	    	if(elementiMultimediali.get(med - 1) instanceof Immagine) {
 	    		Immagine i = (Immagine) elementiMultimediali.get(med - 1);
+	    		int luminImg = scan.nextInt();
+	    		for (int k1 = 0; k1< luminImg ;k1++) {
+	  	    	  i.alzaLuminosita();
+	  	    	}
+	    		
 	    	      i.show();
 	    	}else if(elementiMultimediali.get(med - 1) instanceof Video){
 	    		Video v = (Video) elementiMultimediali.get(med - 1);
+	    		System.out.println("Imposta valore per il volume video, da 1 a 10:");
+	    		int volumVid = scan.nextInt();
+	    		for (int k1 = 0; k1< volumVid;k1++) {
+	  	    	  v.alzaVolume();
+	  	    	}
+	    		System.out.println("Imposta valore per la luminosita, da 1 a 10 ");
+	    		int luminVid = scan.nextInt();
+	    		
+	    		for (int k1 = 0; k1< luminVid ;k1++) {
+		  	    	  v.alzaLuminosita();
+		  	    	}
 	    		v.play();
 	    	}else if(elementiMultimediali.get(med - 1) instanceof Audio) {
-	    		Audio a = (Audio) elementiMultimediali.get(med - 1);
+	    	 Audio a = (Audio) elementiMultimediali.get(med - 1);
+	    	 System.out.println("Imposta valore per il volume audio, da 1 a 10:");
+	    	 int volumAud = scan.nextInt();
+	    	
+	    	for (int k1 = 0; k1< volumAud;k1++) {
+	    	  a.alzaVolume();
+	    	}
+	    		
 	    		a.play();
+	    	    a.abbassaVolume();
 	    	}
 	    	
 	    break;
