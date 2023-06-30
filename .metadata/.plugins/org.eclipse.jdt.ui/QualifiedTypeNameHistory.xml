@@ -3,5 +3,7 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="esercizi.enums.Livello"/>
     <fullyQualifiedTypeName name="esercizi.enums.Dipartimento"/>
+    <fullyQualifiedTypeName name="interfacce.IElementoRiproducibile"/>
+    <fullyQualifiedTypeName name="interfacce.IModificaLuminosita"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
