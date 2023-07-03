@@ -5,10 +5,13 @@
     <fullyQualifiedTypeName name="esercizi.enums.Dipartimento"/>
     <fullyQualifiedTypeName name="interfacce.IElementoRiproducibile"/>
     <fullyQualifiedTypeName name="interfacce.IModificaLuminosita"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="classi.Video"/>
     <fullyQualifiedTypeName name="classi.Immagine"/>
     <fullyQualifiedTypeName name="classi.Audio"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.slf4j.Logger"/>
+    <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

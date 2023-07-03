@@ -1,0 +1,43 @@
+14:17:46.349 [main] INFO  esercizi_g1.Main - Array iniziale:
+14:17:46.358 [main] INFO  esercizi_g1.Main - 1 5 4 7 5 
+14:17:46.359 [main] INFO  esercizi_g1.Main - Inserisci un numero (0 per terminare): 
+14:17:54.420 [main] INFO  esercizi_g1.Main - Inserisci la posizione (0-4): 
+14:18:00.060 [main] INFO  esercizi_g1.Main - Nuovo stato dell'array:
+14:18:00.061 [main] INFO  esercizi_g1.Main - 1 4 4 7 5 
+14:18:00.062 [main] INFO  esercizi_g1.Main - Inserisci un numero (0 per terminare): 
+14:27:45.501 [main] INFO  esercizi_g1.Main - Array iniziale:
+14:27:45.514 [main] INFO  esercizi_g1.Main - 9 1 8 3 6 
+14:27:45.517 [main] INFO  esercizi_g1.Main - Inserisci un numero (0 per terminare): 
+14:28:36.332 [main] INFO  esercizi_g1.Main - Inserisci la posizione (0-4): 
+14:28:42.901 [main] INFO  esercizi_g1.Main - Nuovo stato dell'array:
+14:28:42.902 [main] INFO  esercizi_g1.Main - 9 1 8 1 6 
+14:28:42.903 [main] INFO  esercizi_g1.Main - Inserisci un numero (0 per terminare): 
+14:53:17.382 [main] INFO  esercizi_g1.Main - Array iniziale:
+14:53:17.390 [main] INFO  esercizi_g1.Main - 7-5-9-9-2-
+14:53:17.390 [main] INFO  esercizi_g1.Main - Inserisci un numero (0 per terminare): 
+14:53:37.604 [main] INFO  esercizi_g1.Main - Array iniziale:
+14:53:37.612 [main] INFO  esercizi_g1.Main - 2 7 1 6 4 
+14:53:37.612 [main] INFO  esercizi_g1.Main - Inserisci un numero (0 per terminare): 
+15:13:07.905 [main] INFO  esercizi_g1.Main - Inserisci la posizione (0-4): 
+15:13:10.439 [main] ERROR esercizi_g1.Main - Errore: Posizione non valida!
+15:13:10.445 [main] INFO  esercizi_g1.Main - Inserisci un numero (0 per terminare): 
+15:22:14.862 [main] INFO  esercizi_g1.Main - Array iniziale:
+15:22:14.871 [main] INFO  esercizi_g1.Main - 9 3 6 2 6 
+15:22:14.873 [main] INFO  esercizi_g1.Main - Inserisci un numero (0 per terminare): 
+15:22:26.196 [main] INFO  esercizi_g1.Main - Array iniziale:
+15:22:26.201 [main] INFO  esercizi_g1.Main - 8 4 7 3 10 
+15:22:26.202 [main] INFO  esercizi_g1.Main - Inserisci un numero (0 per terminare): 
+15:22:47.964 [main] INFO  esercizi_g1.Main - Inserisci la posizione (0-4): 
+15:22:54.657 [main] INFO  esercizi_g1.Main - Nuovo stato dell'array:
+15:22:54.658 [main] INFO  esercizi_g1.Main - 8 1 7 3 10 
+15:22:54.658 [main] INFO  esercizi_g1.Main - Inserisci un numero (0 per terminare): 
+15:23:20.049 [main] INFO  esercizi_g1.Main - Array iniziale:
+15:23:20.059 [main] INFO  esercizi_g1.Main - 1 4 6 10 5 
+15:23:20.061 [main] INFO  esercizi_g1.Main - Inserisci un numero (0 per terminare): 
+15:23:24.744 [main] INFO  esercizi_g1.Main - Inserisci la posizione (0-4): 
+15:23:26.962 [main] ERROR esercizi_g1.Main - Errore: Posizione non valida!
+15:23:26.967 [main] INFO  esercizi_g1.Main - Inserisci un numero (0 per terminare): 
+15:42:07.647 [main] INFO  esercizi_g1.Main - Array iniziale:
+15:42:07.652 [main] INFO  esercizi_g1.Main - 9 10 3 7 6 
+15:42:07.653 [main] INFO  esercizi_g1.Main - Inserisci un numero (0 per terminare): 
+15:43:11.505 [main] INFO  esercizi_g1.Main - Inserisci la posizione (0-4): 
