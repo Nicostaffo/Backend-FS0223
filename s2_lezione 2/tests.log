@@ -1,0 +1,21 @@
+14:20:51.691 [main] INFO  esercizio_1.Words - Inserisci il numero di parole da inserire: 
+14:22:11.978 [main] INFO  esercizio_1.Words - Inserisci il numero di parole da inserire: 
+14:30:44.140 [main] INFO  esercizio_1.Words - Inserisci il numero di parole da inserire: 
+14:30:47.953 [main] INFO  esercizio_1.Words - Inserisci le parole una per volta:
+14:31:01.007 [main] INFO  esercizio_1.Words - Parole duplicate:
+14:48:01.532 [main] INFO  esercizio_1.Words - Inserisci il numero di parole che scriverai: 
+14:48:06.733 [main] INFO  esercizio_1.Words - Inserisci le parole una per volta:
+14:48:18.345 [main] INFO  esercizio_1.Words - Parole duplicate:
+14:48:18.346 [main] INFO  esercizio_1.Words - andrea
+14:48:18.347 [main] INFO  esercizio_1.Words - bardi
+14:48:18.354 [main] INFO  esercizio_1.Words - Numero di parole distinte: 2
+14:48:18.355 [main] INFO  esercizio_1.Words - Elenco delle parole distinte:
+14:48:18.355 [main] INFO  esercizio_1.Words - andrea
+14:48:18.355 [main] INFO  esercizio_1.Words - bardi
+15:03:40.782 [main] INFO  esercizio_1.Words - Inserisci il numero di parole che scriverai: 
+15:03:43.768 [main] INFO  esercizio_1.Words - Inserisci le parole una per volta:
+15:04:09.309 [main] INFO  esercizio_1.Words - Parole duplicate:
+15:04:09.310 [main] INFO  esercizio_1.Words - ciao
+15:04:09.310 [main] INFO  esercizio_1.Words - Numero di parole distinte: 1
+15:04:09.311 [main] INFO  esercizio_1.Words - Elenco delle parole distinte:
+15:04:09.311 [main] INFO  esercizio_1.Words - ciao
