@@ -19,3 +19,29 @@
 15:04:09.310 [main] INFO  esercizio_1.Words - Numero di parole distinte: 1
 15:04:09.311 [main] INFO  esercizio_1.Words - Elenco delle parole distinte:
 15:04:09.311 [main] INFO  esercizio_1.Words - ciao
+15:34:28.059 [main] INFO  esercizio_1.Words - Inserisci il numero di parole che scriverai: 
+15:34:31.869 [main] INFO  esercizio_1.Words - Inserisci le parole una per volta:
+15:34:43.175 [main] INFO  esercizio_1.Words - Parole duplicate:
+15:34:43.176 [main] INFO  esercizio_1.Words - gialli
+15:34:43.176 [main] INFO  esercizio_1.Words - ciao
+15:34:43.177 [main] INFO  esercizio_1.Words - Numero di parole distinte: 3
+15:34:43.178 [main] INFO  esercizio_1.Words - Elenco delle parole distinte:
+15:34:43.178 [main] INFO  esercizio_1.Words - vinci
+15:34:43.179 [main] INFO  esercizio_1.Words - gialli
+15:34:43.180 [main] INFO  esercizio_1.Words - ciao
+15:38:34.885 [main] INFO  esercizio_1.Words - Inserisci il numero di parole che scriverai: 
+15:38:46.748 [main] INFO  esercizio_1.Words - Inserisci le parole una per volta:
+15:38:52.929 [main] INFO  esercizio_1.Words - Parole duplicate:
+15:38:52.930 [main] INFO  esercizio_1.Words - ciao
+15:38:52.931 [main] INFO  esercizio_1.Words - Numero di parole distinte: 1
+15:38:52.932 [main] INFO  esercizio_1.Words - Elenco delle parole distinte:
+15:38:52.932 [main] INFO  esercizio_1.Words - ciao
+15:39:49.402 [main] INFO  esercizio_1.Words - Inserisci il numero di parole che scriverai: 
+15:39:54.646 [main] INFO  esercizio_1.Words - Inserisci le parole una per volta:
+15:40:17.818 [main] INFO  esercizio_1.Words - Parole duplicate:
+15:40:17.818 [main] INFO  esercizio_1.Words - ciao
+15:40:17.818 [main] INFO  esercizio_1.Words - nonni
+15:40:17.820 [main] INFO  esercizio_1.Words - Numero di parole distinte: 2
+15:40:17.820 [main] INFO  esercizio_1.Words - Elenco delle parole distinte:
+15:40:17.820 [main] INFO  esercizio_1.Words - ciao
+15:40:17.820 [main] INFO  esercizio_1.Words - nonni
