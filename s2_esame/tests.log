@@ -1,0 +1,45 @@
+11:26:53.027 [main] INFO  esame.Maian - porcodio
+12:31:03.600 [main] INFO  esame.Maian - Oggetti aggiunti al setCatalogo: 5
+12:43:16.907 [main] INFO  esame.Maian - Oggetti aggiunti al Catalogo: 5
+12:43:40.875 [main] INFO  esame.Maian - Oggetti aggiunti al Catalogo: 5
+12:43:40.881 [main] INFO  esame.Maian - catalogo aggiornato: 5
+12:44:56.754 [main] INFO  esame.Maian - Oggetti aggiunti al Catalogo: 5
+12:44:56.759 [main] INFO  esame.Maian - catalogo aggiornato: 5
+12:45:18.624 [main] INFO  esame.Maian - Oggetti aggiunti al Catalogo: 5
+12:45:18.629 [main] INFO  esame.Maian - catalogo aggiornato: 6
+12:45:18.630 [main] INFO  esame.Maian - catalogo aggiornato: 5
+12:51:41.132 [main] INFO  esame.Maian - Oggetti aggiunti al Catalogo: 5
+12:51:41.137 [main] INFO  esame.Maian - catalogo aggiornato: 6
+12:51:41.138 [main] INFO  esame.Maian - catalogo aggiornato: 5
+12:52:56.698 [main] INFO  esame.Maian - Oggetti aggiunti al Catalogo: 5
+12:52:56.703 [main] INFO  esame.Maian - catalogo aggiornato: 6
+12:52:56.705 [main] INFO  esame.Maian - Catalogo:
+12:52:56.705 [main] INFO  esame.Maian - Libro - ISBN: BS511, Titolo: Deforestazione nel sahara, Autore: Manuel D'arabia
+12:52:56.705 [main] INFO  esame.Maian - Libro - ISBN: IS123, Titolo: La bio di silvio, Autore: Luca Brancato
+12:52:56.706 [main] INFO  esame.Maian - Rivista - ISBN: SB475, Titolo: Caccia e Frutta, Periodicità: SETTIMANALE
+12:52:56.707 [main] INFO  esame.Maian - Libro - ISBN: BN456, Titolo: In cucina con richard, Autore: Richard
+12:52:56.707 [main] INFO  esame.Maian - Rivista - ISBN: BN101, Titolo: Motori e Papere, Periodicità: MENSILE
+13:03:04.469 [main] INFO  esame.Maian - Oggetti aggiunti al Catalogo: 5
+13:03:04.473 [main] INFO  esame.Maian - catalogo aggiornato: 6
+13:03:04.475 [main] INFO  esame.Maian - Catalogo:
+13:03:04.475 [main] INFO  esame.Maian - Libro - ISBN: BS511, Titolo: Deforestazione nel sahara, Autore: Manuel D'arabia
+13:03:04.475 [main] INFO  esame.Maian - Rivista - ISBN: SB475, Titolo: Caccia e Frutta, Periodicità: SETTIMANALE
+13:03:04.475 [main] INFO  esame.Maian - Libro - ISBN: BN456, Titolo: In cucina con richard, Autore: Richard
+13:03:04.475 [main] INFO  esame.Maian - Rivista - ISBN: BN101, Titolo: Motori e Papere, Periodicità: MENSILE
+13:03:04.476 [main] INFO  esame.Maian - Libro - ISBN: IS123, Titolo: La bio di silvio, Autore: Luca Brancato
+13:03:04.480 [main] INFO  esame.Maian - Elemento trovato per ISBM: Motori e Papere
+13:08:27.593 [main] INFO  esame.Maian - Oggetti aggiunti al Catalogo: 5
+13:08:27.598 [main] INFO  esame.Maian - Catalogo:
+13:08:27.599 [main] INFO  esame.Maian - Libro - ISBN: BS511, Titolo: Deforestazione nel sahara, Autore: Manuel D'arabia
+13:08:27.599 [main] INFO  esame.Maian - Rivista - ISBN: IN789, Titolo: Focus senior, Periodicità: SEMESTRALE
+13:08:27.599 [main] INFO  esame.Maian - Libro - ISBN: IS123, Titolo: La bio di silvio, Autore: Luca Brancato
+13:08:27.599 [main] INFO  esame.Maian - Rivista - ISBN: SB475, Titolo: Caccia e Frutta, Periodicità: SETTIMANALE
+13:08:27.599 [main] INFO  esame.Maian - Libro - ISBN: BN456, Titolo: In cucina con richard, Autore: Richard
+13:08:27.599 [main] INFO  esame.Maian - Rivista - ISBN: BN101, Titolo: Motori e Papere, Periodicità: MENSILE
+13:08:27.600 [main] INFO  esame.Maian - Catalogo:
+13:08:27.601 [main] INFO  esame.Maian - Libro - ISBN: BS511, Titolo: Deforestazione nel sahara, Autore: Manuel D'arabia
+13:08:27.601 [main] INFO  esame.Maian - Libro - ISBN: IS123, Titolo: La bio di silvio, Autore: Luca Brancato
+13:08:27.601 [main] INFO  esame.Maian - Rivista - ISBN: SB475, Titolo: Caccia e Frutta, Periodicità: SETTIMANALE
+13:08:27.601 [main] INFO  esame.Maian - Libro - ISBN: BN456, Titolo: In cucina con richard, Autore: Richard
+13:08:27.601 [main] INFO  esame.Maian - Rivista - ISBN: BN101, Titolo: Motori e Papere, Periodicità: MENSILE
+13:08:27.603 [main] INFO  esame.Maian - Elemento trovato per ISBM: Motori e Papere
