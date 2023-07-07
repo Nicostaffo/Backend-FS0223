@@ -60,8 +60,14 @@ public class Maian  {
        // Ricerca elemento per anno di pubblicazione
        int yearToSearch = 2022;
        setCatalogo.stream()
-               .filter(item -> item.getReleaseDate() == yearToSearch - 1900)
+               .filter(item -> item.getReleaseDate() == yearToSearch)
                .forEach(item -> log.info("Elemento trovato per anno di pubblicazione: " + item.getTitolo()));
+       
+       // Ricerca elemento per author
+       String authorToSearch = "Richard";
+       setCatalogo.stream()
+               .filter(item -> item instanceof Books && ((Books) item).getAuthor().equals(authorToSearch))
+               .forEach(item -> log.info("Elemento trovato per autore: " + item.getTitolo()));
 
 	}
 
