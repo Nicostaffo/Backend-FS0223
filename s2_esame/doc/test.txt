@@ -1,1 +1,1 @@
-Ciao a tutti!!
+Books [author=Manuel D'arabia, genres=Documentario] # Books [author=Luca Brancato, genres=Autobiografico] # Magazines [periodicity=SETTIMANALE, titolo=Caccia e Frutta, releaseDate=2022, nPages=25] # Books [author=Richard, genres=Cucina] # Magazines [periodicity=MENSILE, titolo=Motori e Papere, releaseDate=2023, nPages=40] # 

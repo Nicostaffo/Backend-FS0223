@@ -2,6 +2,12 @@ package classi;
 
 
 public class Magazines extends CatalogoBiblio {
+@Override
+	public String toString() {
+		return "Magazines [periodicity=" + periodicity + ", titolo=" + titolo + ", releaseDate=" + releaseDate
+				+ ", nPages=" + nPages + "]";
+	}
+
 private periodicity periodicity;
 
 

@@ -19,6 +19,12 @@ public String getISBM() {
 	return ISBM;
 }
 
+@Override
+public String toString() {
+	return "CatalogoBiblio [ISBM=" + ISBM + ", titolo=" + titolo + ", releaseDate=" + releaseDate + ", nPages=" + nPages
+			+ "]";
+}
+
 public void setISBM(String iSBM) {
 	ISBM = iSBM;
 }
