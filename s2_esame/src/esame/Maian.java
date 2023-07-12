@@ -47,7 +47,8 @@ public class Maian  {
        setCatalogo.add(book3);
        
       printCatalogo(setCatalogo);
-       try { 
+      
+      try { 
     	   
 		   System.out.println(leggidaFile()); 
 	} catch (IOException e) {
