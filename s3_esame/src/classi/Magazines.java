@@ -1,28 +1,27 @@
 package classi;
 
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "riviste")
 public class Magazines extends CatalogoBiblio {
-@Override
-	public String toString() {
-		return "Magazines [periodicity=" + periodicity + ", titolo=" + getTitolo() + ", releaseDate=" + getReleaseDate()
-				+ ", nPages=" + getnPages() + "]";
-	}
+    @Enumerated(EnumType.STRING)
+    private periodicity periodicita;
 
-private periodicity periodicity;
+    public Magazines() {
+    }
 
+    public Magazines(String codiceISBN, String titolo, int annoPubblicazione, int numeroPagine, periodicity periodicita) {
+        super(codiceISBN, titolo, annoPubblicazione, numeroPagine);
+        this.periodicita = periodicita;
+    }
 
+    public periodicity getPeriodicita() {
+        return periodicita;
+    }
 
-public Magazines(String iSBM, String titolo, int releaseDate, int nPages, classi.periodicity periodicity) {
-	super(iSBM, titolo, releaseDate, nPages);
-	this.periodicity = periodicity;
-}
-
-public periodicity getPeriodicity() {
-	return periodicity;
-}
-
-public void setPeriodicity(periodicity periodicity) {
-	this.periodicity = periodicity;
-}
-
+    public void setPeriodicita(periodicity periodicita) {
+        this.periodicita = periodicita;
+    }
 }

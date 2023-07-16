@@ -1,50 +1,63 @@
 package classi;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "elementi_catalogo")
+@Inheritance(strategy = InheritanceType.JOINED)
 public abstract class CatalogoBiblio {
-	
- private String ISBM;
- private String titolo;
- private int releaseDate;
- private int nPages;
- 
-public CatalogoBiblio(String ISBM, String titolo, int releaseDate, int nPages) {
-	super();
-	this.ISBM = ISBM;
-	this.titolo = titolo;
-	this.releaseDate = releaseDate;
-	this.nPages = nPages;
- }
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
-public String getISBM() {
-	return ISBM;
-}
+    private String codiceISBN;
+    private String titolo;
+    private int annoPubblicazione;
+    private int numeroPagine;
 
-public void setISBM(String iSBM) {
-	ISBM = iSBM;
-}
+    public CatalogoBiblio() {
+    }
 
-public String getTitolo() {
-	return titolo;
-}
+    public CatalogoBiblio(String codiceISBN, String titolo, int annoPubblicazione, int numeroPagine) {
+        this.codiceISBN = codiceISBN;
+        this.titolo = titolo;
+        this.annoPubblicazione = annoPubblicazione;
+        this.numeroPagine = numeroPagine;
+    }
 
-public void setTitolo(String titolo) {
-	this.titolo = titolo;
-}
+    public Long getId() {
+        return id;
+    }
 
-public int getReleaseDate() {
-	return releaseDate;
-}
+    public String getCodiceISBN() {
+        return codiceISBN;
+    }
 
-public void setReleaseDate(int releaseDate) {
-	this.releaseDate = releaseDate;
-}
+    public void setCodiceISBN(String codiceISBN) {
+        this.codiceISBN = codiceISBN;
+    }
 
-public int getnPages() {
-	return nPages;
-}
+    public String getTitolo() {
+        return titolo;
+    }
 
-public void setnPages(int nPages) {
-	this.nPages = nPages;
-}
+    public void setTitolo(String titolo) {
+        this.titolo = titolo;
+    }
 
+    public int getAnnoPubblicazione() {
+        return annoPubblicazione;
+    }
+
+    public void setAnnoPubblicazione(int annoPubblicazione) {
+        this.annoPubblicazione = annoPubblicazione;
+    }
+
+    public int getNumeroPagine() {
+        return numeroPagine;
+    }
+
+    public void setNumeroPagine(int numeroPagine) {
+        this.numeroPagine = numeroPagine;
+    }
 }
