@@ -1,7 +1,7 @@
 package com.epicode.gestione_prenotazione.classes;
 
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.repository.CrudRepository;
 
-public interface EdificioRepository extends JpaRepository<Edificio, Long>{
+public interface EdificioRepository extends CrudRepository<Edificio, Long>{
 
 }
