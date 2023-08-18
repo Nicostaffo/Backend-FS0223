@@ -2,6 +2,7 @@ package com.epicode.classes;
 
 import com.epicode.enums.DevicesEnum;
 import com.epicode.enums.StatoEnum;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -31,7 +32,7 @@ public class Devices {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-    private String Id;
+    private Long Id;
 	
 	@Column(nullable = false)
 	@Enumerated(EnumType.STRING)
@@ -42,7 +43,29 @@ public class Devices {
 	private StatoEnum statoEnum;
 	
 	@ManyToOne
+	@JsonIgnore
 	@JoinColumn(nullable = false)
 	private User user;
+	
+	@Column(nullable = false)
+	private String model;
+	
+	@Column(nullable = false)
+	private String product;
+
+	public Devices(DevicesEnum deviceEnum, StatoEnum statoEnum) {
+		super();
+		this.deviceEnum = deviceEnum;
+		this.statoEnum = statoEnum;
+	}
+
+	public Devices(DevicesEnum deviceEnum, StatoEnum statoEnum, String model, String product) {
+		super();
+		this.deviceEnum = deviceEnum;
+		this.statoEnum = statoEnum;
+		this.model = model;
+		this.product = product;
+	}
+	
 }
 
